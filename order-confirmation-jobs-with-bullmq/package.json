@@ -1,0 +1,20 @@
+{
+  "name": "order-confirmation-jobs-with-bullmq",
+  "module": "src/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bullmq": "^6.3.8",
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
+  }
+}
