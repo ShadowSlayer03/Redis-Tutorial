@@ -1,0 +1,19 @@
+{
+  "name": "site-banner",
+  "module": "src/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
+  }
+}
