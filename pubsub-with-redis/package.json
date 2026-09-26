@@ -1,0 +1,20 @@
+{
+  "name": "pubsub-with-redis",
+  "module": "src/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "api": "node --watch src/index.js",
+    "subscriber": "node --watch src/subscriber.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
+  }
+}
