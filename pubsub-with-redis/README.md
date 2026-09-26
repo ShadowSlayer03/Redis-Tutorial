@@ -1,5 +1,7 @@
 # pubsub-with-redis
 
+Simple publish and subscribe model with redis 
+
 To install dependencies:
 
 ```bash
